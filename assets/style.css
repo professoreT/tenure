@@ -142,6 +142,10 @@ footer.site { border-top: 3px solid var(--ink); padding: 1.4rem 1.25rem; font: 1
 .exhibit-figs img { display: block; width: 100%; height: auto; }
 .exhibit-figs figcaption { padding: .6rem .8rem; font: 600 .95rem/1.45 Arial, Helvetica, sans-serif; border-top: 3px solid var(--ink); }
 .exhibit-figs .flyer img { max-width: 22rem; margin: 0 auto; }
+.evidence-note { margin-block: 1.4rem; padding-inline: 1rem; border: 2px solid var(--ink); }
+.evidence-note summary { min-height: 44px; padding-block: .65rem; cursor: pointer; font-weight: 700; }
+.evidence-note[open] { padding-bottom: .65rem; }
+@media print { .evidence-note:not([open]) { display: none; } }
 .exhibit-meta { font: 600 1rem Arial, Helvetica, sans-serif; color: var(--teal); }
 
 /* Placeholder slots for work still to be added */
@@ -161,3 +165,6 @@ footer.site { border-top: 3px solid var(--ink); padding: 1.4rem 1.25rem; font: 1
 .pullquote blockquote { margin: 0; }
 .pullquote blockquote p { margin: 0; font-size: clamp(1.35rem, 2.6vw, 1.85rem); line-height: 1.4; font-style: italic; }
 .pullquote figcaption { margin-top: .8rem; font: 600 .95rem/1.5 Arial, Helvetica, sans-serif; letter-spacing: .02em; }
+
+/* Home shortcuts */
+.shortcuts h2 { margin-top: 2rem; }
