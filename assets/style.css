@@ -155,3 +155,9 @@ footer.site { border-top: 3px solid var(--ink); padding: 1.4rem 1.25rem; font: 1
 .video-figs figure.video { margin: 0; border: 3px solid var(--ink); background: #000; }
 .video-figs video { display: block; width: 100%; height: auto; max-height: 70vh; background: #000; }
 .video-figs figcaption { padding: .6rem .8rem; background: #fff; font: 600 .95rem/1.45 Arial, Helvetica, sans-serif; border-top: 3px solid var(--ink); }
+
+/* Home pull quote */
+.pullquote { margin: 1.6rem 0 2rem; padding: .2rem 0 .2rem 1.4rem; border-left: 8px solid var(--rust); }
+.pullquote blockquote { margin: 0; }
+.pullquote blockquote p { margin: 0; font-size: clamp(1.35rem, 2.6vw, 1.85rem); line-height: 1.4; font-style: italic; }
+.pullquote figcaption { margin-top: .8rem; font: 600 .95rem/1.5 Arial, Helvetica, sans-serif; letter-spacing: .02em; }
