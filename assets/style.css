@@ -168,3 +168,7 @@ footer.site { border-top: 3px solid var(--ink); padding: 1.4rem 1.25rem; font: 1
 
 /* Home shortcuts */
 .shortcuts h2 { margin-top: 2rem; }
+
+/* Video placeholder on the encrypted site */
+.video-note { margin: 0; padding: .8rem 1rem; border: 3px solid var(--ink); background: var(--pale); }
+.video-note figcaption { font: 600 .95rem/1.5 Arial, Helvetica, sans-serif; }
